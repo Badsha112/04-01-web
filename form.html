@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+<nav>
+        <ul>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="index.html">Video</a></li>
+          <li><a href="website.html">Profulio</a></li>
+          <li>
+            <a href="table.html">Employee List<a>
+                <ul class="drup">
+                  <li><a href="form.html">Form</a></li>
+                  <li><a href="index.html">Video</a></li>
+                  <li><a href="website.html">Profulio</a></li>
+                  <li><a href="table.html">Employee List</a> </li>
+                </ul>
+          </li>
+        </ul>
+</nav>
+  <h1>Please fill Up the Field</h1>
+   <form action="">
+      <label for="name"> Your Name :
+        <input type="text" placeholder="Your Name">
+      </label>
+      <label for="email"> Your Mail :
+        <input type="email" name="mail" id="email" placeholder="Your Mail">
+      </label>
+      <label for="gen">
+        Gender :
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+      </label>
+      <label for="num">Your Phone :
+        <select name="" id="num">
+          <option value="+990">+990</option>
+          <option value="+990">+880</option>
+          <option value="+000">+000</option>
+        </select>
+        <input type="number">
+      </label>
+      <fieldset>
+        <legend>Chose One kind of Fruit :</legend>
+        <input type="radio" name="Fruit">Mango
+        <input type="radio"name="Fruit">Jack-Fruit 
+        <input type="radio"name="Fruit">Orange
+      </fieldset>
+    <fieldset>
+      <legend>
+        Chose one or Many kind of jus :
+      </legend>
+      <input type="checkbox">Milk Salk
+      <input type="checkbox">Malta Tea
+      <input type="checkbox">Cold Coffee
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+   </form>
+</body>
+</html>

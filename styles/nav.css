@@ -1,0 +1,25 @@
+nav > ul{
+  display: flex;
+}
+ul li{
+  list-style: none;
+  margin: 20px;
+  padding: 10px;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+ul li:hover {
+  background: lightgray;
+}
+.drup{
+  display: none;
+  position: absolute;
+  padding-left: 10px;
+  background: lightgreen;
+  width: 100%;
+}
+ul li:hover .drup{
+  display: block;
+}
